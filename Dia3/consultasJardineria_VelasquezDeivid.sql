@@ -1,3 +1,7 @@
+-- ############################################
+-- #### DIA  # 3 - Insert datos Jardineria ####
+-- ############################################
+
 use dia3;
 
 INSERT INTO oficina VALUES ('BCN-ES','Barcelona','España','Barcelona','08019','+34 93 3561182','Avenida Diagonal, 38','3A escalera Derecha');
@@ -824,15 +828,6 @@ INSERT INTO pago VALUES (30,'PayPal','ak-std-000024','2009-01-16',7863);
 INSERT INTO pago VALUES (35,'PayPal','ak-std-000025','2007-10-06',3321);
 INSERT INTO pago VALUES (38,'PayPal','ak-std-000026','2006-05-26',1171);
 
--- oficina - ciudad 
-select codigo_oficina, ciudad from oficina;
 
--- Ciudad - Telefono - Oficina en españa
-select ciudad, telefono from oficina where pais = 'España';
-
--- Nombre - Apellido - Email - de empleados cuyo jefe codigo = 7
-select nombre, apellido1, email from empleado where codigo_jefe = 7;
-
--- 
 
 -- Desarrollado por Deivid Velasquez Gutierres / TI: 1096701633
