@@ -141,7 +141,7 @@ join detalle_pedido ON pedido.codigo_pedido = detalle_pedido.codigo_pedido
 join producto ON detalle_pedido.codigo_producto = producto.codigo_producto
 join gama_producto ON producto.gama = gama_producto.gama
 group by cliente.codigo_cliente, gama_producto.gama
-order by cliente.codigo_cliente, gama_producto.gama;
+order by cliente.codigo_cliente, gama_producto.gama;    
 
 
 -- Desarrollado por Deivid Velasquez Gutierres / TI: 1096701633
