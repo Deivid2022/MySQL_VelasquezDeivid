@@ -409,3 +409,5 @@ from oficina o
 join empleado e on o.codigo_oficina = e.codigo_oficina
 group by o.ciudad
 order by o.ciudad;
+
+-- Desarrollado por Deivid Velasquez Gutierres / TI: 1096701633
